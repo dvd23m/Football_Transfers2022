@@ -44,7 +44,8 @@ SECOND WAY: From a specific day to today
 > - In this case you must to comment the second function and delete the comments of the first one. 
 > - If you use this option, the last day to scraping will be today's date in your computer.
 > - You can see an example below:
-> ```
+
+```
 # Start date for scraping. In this case 2022-06-30
 players_dict = calculate_days_to_scrap(datetime.strptime('2022-06-30', '%Y-%m-%d'))
 
