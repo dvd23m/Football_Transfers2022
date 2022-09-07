@@ -2,11 +2,11 @@
 
 This code allows to create a csv or json file with the data about the transactions between football teams during the summer window (from 1-July-2022 to 1-September-22). The transactions have been obtined by scraping on the website Transfermark.com.
 
-# Methodology
+## Methodology
 
 For data collection have been used BeautifulSoup library and CSS selectors. These data are stored in a DefaultDict and, later on, converted to csv an json files ready for use.
 
-# How you can use this code ?
+## How you can use this code ?
 
 An important thing to use this code is to know how indicate the date to get the information. The first way is by indicating a range of date. The second one, is by indicating only the begining day and do the scraping until today. 
 
@@ -66,7 +66,7 @@ def calculate_days_to_scrap(fromDay):
     return players_dict'''
 ```
 
-# Other things
+## Other things
 > You can see this dataset in [Kaggle](https://www.kaggle.com/datasets/davidmolina/football-summer-market-2022). If you create a data analysis of this dataset, encourage to you upload it to kaggle.
 
 Thank you!
